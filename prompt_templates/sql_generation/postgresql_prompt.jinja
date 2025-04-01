@@ -26,6 +26,7 @@
    - 数组字段使用 `ANY()` 进行高效查询
 {% endblock %}
 
+
 {% block validation_rules %}
 ## 验证机制：
 1. ​**元数据验证**
@@ -50,6 +51,7 @@ SELECT ... -- 生成的查询语句
 所有字符串比较使用参数化值（如 status = :status）
 结果集必须包含 FETCH FIRST n ROWS ONLY 限制
 {% endblock %}
+
 
 {% block example_section %}
 输出示例：
